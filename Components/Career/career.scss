@@ -1,0 +1,580 @@
+
+ :root{
+    
+    --direction: ltr;
+    --textaligen:left;
+    --marginright:60px;
+    
+  
+  }  
+
+
+
+.s1{
+    position: relative;
+    overflow: hidden;
+
+    
+    .hero {
+        
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background-color: #1F2535;
+        background: url(../../img/ourWork.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        padding-top: 12%;
+        text-align: center;
+        .container-fluid {
+            margin-bottom:100px ;
+            width: 100%;
+            .text {
+                width: 100%;
+                display: inline-block;
+                padding-top: 100px;
+                position: relative;
+                z-index: 3;
+                pointer-events: none;
+                .title {
+                    line-height: 1;
+                    margin-bottom: 35px;
+                    margin-left: 15px;
+                    span {
+                        display: inline-block;
+                        background: #feede4;
+                        padding: 16px 15px;
+                        margin-top: -15px;
+                        margin-left: -15px;
+                        }
+                    }
+                }
+            }
+        .cover{
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(144, 255, 246, 0.8);
+          
+        }
+   
+            .social-btn-container {
+                text-align: center;
+                position: relative;
+                left: 50%;
+                transform: translate(-50%);
+                width: 100%;
+                
+                
+                
+               
+                .social-btn-box {
+                    
+                    display: inline-block;
+                    width: 50px;
+                    height: 50px;
+                    -webkit-transform: rotate(45deg);
+                    -moz-transform: rotate(45deg);
+                    -ms-transform: rotate(45deg);
+                    -o-transform: rotate(45deg);
+                    transform: rotate(45deg);
+                    border: 1px solid #fff;
+                    -webkit-border-radius: 5px;
+                    -moz-border-radius: 5px;
+                    -ms-border-radius: 5px;
+                    -o-border-radius: 5px;
+                    border-radius: 5px;
+                    margin: 10px;
+                    position: relative;
+                    overflow: hidden;
+                    &:hover
+                    {
+                        border: hidden;
+                    }
+                     a {
+                            color: #fff;
+                            font-size: 20px;
+                            line-height: 70px;
+                            display: inline-block;
+                            width: 67px;
+                            height: 67px;
+                            position: absolute;
+                            top: -10px;
+                            left: -10px;
+                            -webkit-transform: rotate(-45deg);
+                            -moz-transform: rotate(-45deg);
+                            -ms-transform: rotate(-45deg);
+                            -o-transform: rotate(-45deg);
+                            transform: rotate(-45deg);
+                        }
+                    
+                        .google-plus-btn
+                        {
+                            &:hover{
+                                color: #fff;
+                                background: #db514f;
+                                
+                                
+                            }
+                            
+                        }
+                        .facebook-btn
+                        {
+                            &:hover{
+                                background: #3B5998;
+                                color: #fff;
+                                
+                            }
+                            
+                        }
+                        .twitter-btn
+                        {
+                            &:hover{
+                                background: #55ACEE;
+                                color: #fff;
+                                
+                                
+                            }
+                            
+                        }
+                        .linkedin-btn
+                        {
+                            &:hover{
+                                background: #0077b5;
+                                color: #fff;
+                                
+                                
+                            }
+                            
+                        }
+                        .youtube-btn
+                        {
+                            &:hover{
+                                background: #cc181e;
+                                color: #fff;
+                                
+                                
+                            }
+                            
+                        }
+    
+                    
+                    }
+                    .fixbottarro {
+                        // z-index: 6;
+                        height: 150px;
+                        width: 100%;
+                        position: absolute;
+                        bottom: 0px;
+                        left: 50%;
+                        -webkit-transform: translateX(-50%);
+                        -moz-transform: translateX(-50%);
+                        -ms-transform: translateX(-50%);
+                        -o-transform: translateX(-50%);
+                        transform: translateX(-50%);
+                        }
+                        
+                }
+        }
+
+}
+.s2{
+    overflow: hidden;
+    direction: var(--direction);
+    text-align: var(--textaligen) !important;
+
+
+    background: rgb(244, 244, 244);
+    padding-top: 50px;
+    .container-fluid {
+        padding-right: 80px;
+        padding-left: 80px;
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        .section-title {
+            margin-bottom: 20px;
+            }
+            
+            .inputs-wrapper {
+                margin-bottom: 30px;
+                }
+            
+               
+        }
+          #types-select,#office-select {
+            border: 2px solid #949492;
+            height: 40px;
+            width: 280px;
+            outline: none;
+            margin-right: 60px;
+            -webkit-border-radius: 0;
+            -moz-border-radius: 0;
+            border-radius: 0;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+            color: #949492;
+            padding: 0 45px 0 30px;
+            font-weight: 700;
+            background: url(https://cshark.com/wp-content/themes/cs/theme_inc/plugins/so_plugins/job_offers/tpl/../../../../../img/Triangle.png);
+            -webkit-background-size: 12px 12px;
+            -moz-background-size: 12px;
+            -o-background-size: 12px;
+            background-size: 12px;
+            background-position: -webkit-calc(100% - 20px);
+            background-position: -moz-calc(100% - 20px);
+            background-position: calc(100% - 20px);
+            background-repeat: no-repeat;
+            }
+            #office-select
+            {
+                margin-right: var(--marginright);
+
+            }
+           
+            .checkbox {
+                position: relative;
+                input[type=checkbox] {
+                    position: absolute;
+                    z-index: 1;
+                    left: 0;
+                    display: block;
+                    width: 100%;
+                    height: 100%;
+                    margin: 0;
+                    opacity: 0;
+                    cursor: pointer;
+                    color: #949492;
+                    padding-left: 35px;
+                    font-weight: 700;
+                    }
+                    span {
+                        color: #949492;
+                        padding-left: 35px;
+                        font-weight: 700;
+                        }
+                        ::before {
+                            position: absolute;
+                            top: 50%;
+                            -webkit-transform: translateY(-50%);
+                            -moz-transform: translateY(-50%);
+                            -ms-transform: translateY(-50%);
+                            -o-transform: translateY(-50%);
+                            transform: translateY(-50%);
+                            left: 0;
+                            display: inline-block;
+                            width: 20px;
+                            height: 20px;
+                            content: '';
+                            cursor: pointer;
+                            -webkit-transition: .1s;
+                            -o-transition: .1s;
+                            -moz-transition: .1s;
+                            transition: .1s;
+                            border: 2px solid #949492;
+                            -webkit-border-radius: 0;
+                            -moz-border-radius: 0;
+                            border-radius: 0;
+                            outline: none!important;
+                            background: url(https://cshark.com/wp-content/themes/cs/theme_inc/plugins/so_plugins/job_offers/tpl/../../../../../img/check.svg) no-repeat center;
+                            -webkit-background-size: 0 0;
+                            -moz-background-size: 0;
+                            -o-background-size: 0;
+                            background-size: 0;
+                            
+                            
+                        }
+                }
+                .job-offers-widget{
+                 .card-col {
+                    margin-bottom: 40px;
+                    }
+                    .card-wrapper {
+                        height: 100%;
+                        min-height: 400px;
+                        padding: 30px;
+                        background-color: #fff;
+                        position: relative;
+                        .text--uppercase {
+                            text-transform: uppercase;
+                            }
+                            .text--weight800 {
+                                font-weight: 800;
+                                }
+                                
+                        .card-title {
+                            line-height: 1.2;
+                            margin-bottom: 35px;
+                            font-size: 26px;
+                            }
+                            .excerpt {
+                                margin-bottom: 70px;
+                                line-height: 1.33;
+                                font-size: 18px;
+                                }
+                                .remote {
+                                    line-height: 2;
+                                    }
+                                    .btn {
+                                        min-width: 150px;
+                                        height: 50px;
+                                        position: absolute;
+                                        left: 30px;
+                                        bottom: 30px;
+                                        padding: 11px;
+                                        display: inline-block;
+                                        padding: 13px 0;
+                                        -webkit-box-align: center;
+                                        -webkit-align-items: center;
+                                        -moz-box-align: center;
+                                        -ms-flex-align: center;
+                                        align-items: center;
+                                        text-align: center;
+                                        min-width: 240px;
+                                        font-size: 16px;
+                                        font-weight: 800;
+                                        text-transform: uppercase;
+                                        background-color: #a9edd7;
+                                        text-decoration: none;
+                                        color: #242422!important;
+                                        -webkit-transition: all 0.2s ease;
+                                        -o-transition: all 0.2s ease;
+                                        -moz-transition: all 0.2s ease;
+                                        transition: all 0.2s ease;
+                                        cursor: pointer;
+                                        }
+                        }
+                        .category {
+                            display: block;
+                            color: #949492;
+                            margin-bottom: 10px;
+                            }
+                }
+            
+}
+.s3
+{
+    direction: var(--direction);
+    text-align: var(--textaligen) !important;
+    .container-fluid 
+    {
+        padding-right: 80px!important;
+        padding-left: 80px!important;
+        .header-and-icons-2-widget__header {
+            
+        h2 {
+          font-size: 40px;
+          line-height: 50px;
+          color: #A9EDD7;
+          font-family: 'Commuters Sans';
+          margin-bottom: 0;
+          margin-top: 0;
+          font-weight: 900;
+          }
+      }
+      .header-and-icons-2-widget__cards
+      {
+          padding-bottom: 7%;
+
+      }
+  
+         
+           
+              .row {
+                  -webkit-box-pack: justify!important;
+                  -webkit-justify-content: space-between!important;
+                  -moz-box-pack: justify!important;
+                  -ms-flex-pack: justify!important;
+                  justify-content: space-between!important;
+                  .col {
+                    //   max-width: 373px;
+                      margin-top: 40px;
+                      .card {
+                          padding-bottom: 60px;
+                          padding-left: 20px;
+                          padding-right: 20px; 
+                          height: 100%;
+                          position: relative;
+                          overflow: hidden;
+                          background-color: #A9EDD7;
+                          padding-top: 70px;
+                          .icon-wrapper {
+                              background-color: #A9EDD7;
+                              position: relative;
+                              top: 0;
+                              -webkit-transition: all .35s;
+                              -o-transition: all .35s;
+                              -moz-transition: all .35s;
+                              transition: all .35s;
+                              z-index: 1;
+                          }
+                              .icon {
+                                  width: 160px;
+                                  height: 100%;
+                                  }
+                                  .header {
+                                      background-color: #A9EDD7;
+                                      position: relative;
+                                      z-index: 1;
+                                      h4 {
+                                          
+                                          font-family: "URW DIN";
+                                          font-weight: 700;
+                                          font-size: 20px;
+                                          line-height: 24px;
+                                          color: #fff;
+                                          
+                                          margin-top: 0;
+                                          }
+                                          .h4top{
+                                            
+                                            padding-top: 35px;
+
+                                          }
+                                           .h4bottom{
+                                            margin-bottom: 15px;
+                                            
+
+                                          }
+                                      }
+                                      .text-wrapper {
+                                          position: relative;
+                                          .text {
+                                              top: 5px;
+                                              opacity: 1;
+                                              display: block;
+                                              width: 100%;
+                                              font-family: "URW DIN";
+                                              font-size: 18px;
+                                              line-height: 32px;
+                                              color: #747472;
+                                              position: absolute;
+                                              
+                                              }
+                                          }
+                                          .bullet {
+                                              bottom: -10px!important;
+                                              opacity: 0;
+                                              position: absolute;
+                                              content: url(https://cshark.com/wp-content/themes/cs/theme_inc/plugins/so_plugins/header_and_icons_2/tpl/bullet.svg);
+                                              left: 50%;
+                                              opacity: 1;
+                                              -webkit-transform: translateX(-50%);
+                                              -moz-transform: translateX(-50%);
+                                              -ms-transform: translateX(-50%);
+                                              -o-transform: translateX(-50%);
+                                              transform: translateX(-50%);
+                                              -webkit-transition: bottom 0.3s ease-in-out 0s,opacity 0.3s ease-in-out 0s;
+                                              -o-transition: bottom 0.3s ease-in-out 0s,opacity 0.3s ease-in-out 0s;
+                                              -moz-transition: bottom 0.3s ease-in-out 0s,opacity 0.3s ease-in-out 0s;
+                                              transition: bottom 0.3s ease-in-out 0s,opacity 0.3s ease-in-out 0s;
+                                              }
+                              
+                          }
+                      }
+                  }
+              
+
+     
+ 
+     
+    }
+}
+@media (min-width: 1200px){
+    .s1
+    {
+        .container-fluid 
+        {
+            padding-right: 80px!important;
+            padding-left: 80px!important;
+        }
+  }
+
+}
+@media (min-width: 768px){
+    .container-fluid {
+        padding-right: 60px;
+        padding-left: 60px;
+        }
+
+}
+@media (max-width: 843px){
+    #types-select
+    {
+        margin-top: 25px;
+
+    }
+    #types-select,#office-select
+    {
+        width: 400px !important;
+
+    }
+
+
+}
+@media (max-width: 499px){
+    .container-fluid {
+        padding-right: 20px !important;
+        padding-left: 20px !important;
+    }
+    .s3
+{
+    .container-fluid 
+    {
+        padding-right: 20px!important;
+        padding-left: 20px!important;
+    }
+}
+    
+    #types-select
+    {
+        margin-top: 25px;
+
+    }
+    #types-select,#office-select
+    {
+        width: 200px !important;
+
+    }
+    .btn-wrapper{
+        .btn
+        {
+            min-width: 135px !important;
+        }
+
+    }
+    .card-title
+     {
+        font-size: 20px !important;
+
+    }
+
+
+
+}
+@media (max-width: 320px){
+  
+   
+    .btn-wrapper{
+        .btn
+        {
+            min-width: 100px !important;
+        }
+
+    }
+    .card-title
+     {
+        font-size: 16px !important;
+
+    }
+
+
+
+}
+

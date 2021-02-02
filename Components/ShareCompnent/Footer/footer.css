@@ -1,0 +1,85 @@
+:root {
+  --direction: ltr;
+  --display:block;
+}
+
+.subscribe-section {
+  direction: var(--direction);
+  background-image: url("../../../img/footer2.png");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  z-index: 1;
+}
+
+.subscribe-section .cover {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(37, 37, 37, 0.5);
+}
+
+.subscribe-section form {
+  direction: ltr;
+}
+
+.subscribe-section .input-group-append {
+  margin-left: -5px !important;
+  z-index: 1000;
+}
+
+.subscribe-section .input-group-append button {
+  background-color: #79eaf0 !important;
+}
+
+.subscribe-section .AtheerFooter {
+  color: #79eaf0;
+  -webkit-filter: drop-shadow(2px 4px 6px #79eaf0);
+          filter: drop-shadow(2px 4px 6px #79eaf0);
+  letter-spacing: 10px;
+  font-family: cursive;
+}
+
+.footer-main {
+  direction: var(--direction);
+  background-image: url(../../../img/footer4.png);
+  background-size: cover;
+  background-color: #041C34;
+}
+
+.footer-main .contact-info li {
+  color: #F5F6F4 !important;
+  padding: .3rem 0rem;
+}
+
+.footer-main .contact-info .social-icons i {
+  font-size: 30px;
+  margin-right: 10px;
+  color: #F5F6F4;
+}
+
+.footer-main .nav-item {
+  font-size: 1rem;
+}
+
+.footer-main .nav-link {
+  display: block;
+  padding: .1rem 0rem;
+  color: #F5F6F4;
+}
+
+.footer-main .AtheerFooter2 {
+  -webkit-filter: drop-shadow(2px 4px 6px #F5F6F4);
+          filter: drop-shadow(2px 4px 6px #F5F6F4);
+  letter-spacing: 10px;
+  font-family: cursive;
+  color: white;
+}
+
+.ar {
+  text-align: right;
+}
+/*# sourceMappingURL=footer.css.map */

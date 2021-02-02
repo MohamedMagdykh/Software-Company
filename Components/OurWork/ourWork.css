@@ -1,0 +1,233 @@
+:root {
+  --direction: ltr;
+  --textaligen:left;
+}
+
+.s1 .hero {
+  position: relative;
+  overflow: scroll;
+  height: 225vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  background-color: #1F2535;
+  background: url(../../img/ourWork.jpg) no-repeat center center fixed;
+  background-size: cover;
+  padding-top: 12%;
+  text-align: center;
+}
+
+.s1 .hero .cover {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(144, 255, 246, 0.8);
+}
+
+.s1 .hero #title-1 {
+  text-align: center;
+  color: rgba(250, 250, 250, 0.9);
+  font-family: 'gothic';
+  font-size: 20px;
+  letter-spacing: 2px;
+  line-height: 50px;
+  font-style: normal;
+  font-weight: 100;
+  position: relative;
+}
+
+.s1 .hero em {
+  color: rgba(250, 250, 250, 0.9);
+  font-family: gothic;
+  font-size: 100px;
+  letter-spacing: 5px;
+  font-style: normal;
+  padding-top: 15px;
+  text-shadow: 0.07em 0.07em 0 rgba(0, 0, 0, 0.2);
+  -webkit-perspective: 1000;
+  perspective: 1000;
+  position: relative;
+}
+
+.s1 .hero .animeWork {
+  color: rgba(250, 250, 250, 0.9);
+  font-family: gothic;
+  font-size: 100px;
+  letter-spacing: 5px;
+  font-style: normal;
+  padding-top: 15px;
+  text-shadow: 0.07em 0.07em 0 rgba(0, 0, 0, 0.2);
+  -webkit-perspective: 1000;
+  perspective: 1000;
+  color: rgba(250, 250, 250, 0.9);
+  display: inline-block;
+  -webkit-animation: flip 8s cubic-bezier(0, 0, 0.58, 1) infinite;
+  animation: flip 8s cubic-bezier(0, 0, 0.58, 1) infinite;
+}
+
+.s1 .hero .slogan2 {
+  color: rgba(250, 250, 250, 0.9);
+  z-index: 1;
+}
+
+.s1 .hero .social-btn-container {
+  text-align: center;
+  position: relative;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+  width: 100%;
+}
+
+.s1 .hero .social-btn-container .social-btn-box {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  border: 1px solid #fff;
+  border-radius: 5px;
+  margin: 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+.s1 .hero .social-btn-container .social-btn-box:hover {
+  border: hidden;
+}
+
+.s1 .hero .social-btn-container .social-btn-box a {
+  color: #fff;
+  font-size: 20px;
+  line-height: 70px;
+  display: inline-block;
+  width: 67px;
+  height: 67px;
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.s1 .hero .social-btn-container .social-btn-box .google-plus-btn:hover {
+  color: #fff;
+  background: #db514f;
+}
+
+.s1 .hero .social-btn-container .social-btn-box .facebook-btn:hover {
+  background: #3B5998;
+  color: #fff;
+}
+
+.s1 .hero .social-btn-container .social-btn-box .twitter-btn:hover {
+  background: #55ACEE;
+  color: #fff;
+}
+
+.s1 .hero .social-btn-container .social-btn-box .linkedin-btn:hover {
+  background: #0077b5;
+  color: #fff;
+}
+
+.s1 .hero .social-btn-container .social-btn-box .youtube-btn:hover {
+  background: #cc181e;
+  color: #fff;
+}
+
+.s1 .hero .social-btn-container .fixbottarro {
+  height: 150px;
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+.projects {
+  margin-top: 12%;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.projects .perProject {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 30px;
+  border-radius: 15px;
+  background-color: #fff;
+  margin-left: 30px;
+  margin-right: 30px;
+  width: 350px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 10px 10px 10px #f1767610;
+          box-shadow: 10px 10px 10px #f1767610;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  position: relative;
+  overflow: hidden;
+  height: 220px;
+  margin-bottom: 50px;
+  border: 1px solid #4eafb4;
+}
+
+.projects .text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  background-image: -webkit-linear-gradient(45deg, #888888 0, #888888 100%);
+  color: #fff;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 14px;
+  opacity: .8;
+}
+
+.paginationStyling {
+  direction: var(--direction);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media (max-width: 480px) {
+  em {
+    font-size: 36px !important;
+  }
+  .animeWork {
+    font-size: 36px !important;
+  }
+  #title-1 {
+    margin-top: 20% !important;
+  }
+}
+/*# sourceMappingURL=ourWork.css.map */

@@ -1,0 +1,74 @@
+.s1 {
+  overflow: hidden;
+  background-image: -webkit-linear-gradient(45deg, #4eafb4 0, white 100%);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: 100vh;
+}
+
+.s1 h1 {
+  position: absolute;
+  top: 15%;
+  left: 0;
+  right: 0;
+  color: white;
+  font-family: fantasy;
+}
+
+.s1 .order-2 {
+  position: absolute;
+  left: 9%;
+  top: 25%;
+}
+
+.s1 .contact-us-card {
+  background-color: #ecececd1;
+  padding: 50px;
+  border-radius: 31px;
+}
+
+.s1 .contact-us-card label {
+  margin-left: 10px;
+  color: #707070;
+}
+
+.s1 .contact-us-card .text-lightBlue {
+  color: #1CD2E2 !important;
+}
+
+.s1 .contact-us-card .form-control {
+  border-radius: 7px;
+  background-color: #F5F6F4;
+}
+
+.s1 .contact-us-card .start-project-btn {
+  margin-top: 5%;
+  width: 60%;
+  height: 50px;
+}
+
+@media (max-width: 980px) and (min-width: 250px) {
+  .order-2 {
+    left: 0% !important;
+  }
+  .s1 {
+    min-height: 120vh;
+  }
+}
+
+@media (max-width: 1436px) and (min-width: 500px) {
+  .s1 {
+    min-height: 150vh;
+  }
+}
+/*# sourceMappingURL=contactUs.css.map */

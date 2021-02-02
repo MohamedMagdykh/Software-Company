@@ -1,0 +1,93 @@
+:root{
+    
+    --direction: ltr;
+    --display:block;
+    
+    
+    
+  }  
+
+.subscribe-section {
+    direction:var(--direction) ;
+    background-image: url('../../../img/footer2.png');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+    .cover
+    {
+                
+               
+                position: absolute;
+                width: 100%;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                
+                background: rgba(37, 37, 37, 0.50);
+
+    }
+    form{
+        direction: ltr;
+    }
+    .input-group-append {
+        margin-left: -5px!important;
+        z-index: 1000;
+        button{
+            background-color: #79eaf0 !important;
+        }
+        }
+        .AtheerFooter{
+            
+        color: #79eaf0 ;
+        filter: drop-shadow(2px 4px 6px #79eaf0 );
+          letter-spacing: 10px;
+          font-family: cursive ;
+
+        }
+        
+    }
+
+    .footer-main {
+        direction:var(--direction) ;
+        background-image: url(../../../img/footer4.png);
+        background-size: cover;
+        background-color: #041C34;
+         .contact-info  {
+             li
+             {
+                color: #F5F6F4 !important;
+                padding: .3rem 0rem;
+
+             }
+             .social-icons i {
+                font-size: 30px;
+                margin-right: 10px;
+                color: #F5F6F4;
+                }
+          
+            }
+            .nav-item
+             {
+                font-size: 1rem;
+            }
+            .nav-link {
+                display: block;
+                padding: .1rem 0rem;
+                color: #F5F6F4;
+                }
+                .AtheerFooter2
+                {
+                    filter: drop-shadow(2px 4px 6px  #F5F6F4);
+                    letter-spacing: 10px;
+                    font-family: cursive ;
+                    color: white;
+
+                }
+        }
+
+ /////////ar
+ .ar{
+     text-align: right;
+ }

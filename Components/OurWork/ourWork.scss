@@ -1,0 +1,275 @@
+
+
+ :root{
+    
+    --direction: ltr;
+    --textaligen:left;
+    
+  }  
+.s1{
+    .hero {
+        position: relative;
+        overflow: scroll;
+        height: 225vh;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background-color: #1F2535;
+        background: url(../../img/ourWork.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        padding-top: 12%;
+        text-align: center;
+        .cover{
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(144, 255, 246, 0.8);
+          
+        }
+        #title-1
+         {
+            // z-index: 6;
+            text-align: center;
+            color: rgba(250, 250, 250, 0.9);
+            font-family: 'gothic';
+            font-size: 20px;
+            letter-spacing: 2px;
+            line-height: 50px;
+            font-style: normal;
+            font-weight: 100;
+            position: relative;
+           
+                
+            }
+            em {
+                color: rgba(250, 250, 250, 0.9);
+                font-family: gothic;
+                font-size: 100px;
+                letter-spacing: 5px;
+                // display: block;
+                font-style: normal;
+                padding-top: 15px;
+                text-shadow: 0.07em 0.07em 0 rgba(0, 0, 0, 0.2);
+                -webkit-perspective: 1000;
+                perspective: 1000;
+                position: relative;
+              
+                }
+            .animeWork
+             {
+                color: rgba(250, 250, 250, 0.9);
+                font-family: gothic;
+                font-size: 100px;
+                letter-spacing: 5px;
+                // display: block;
+                font-style: normal;
+                padding-top: 15px;
+                text-shadow: 0.07em 0.07em 0 rgba(0, 0, 0, 0.2);
+                -webkit-perspective: 1000;
+                perspective: 1000;
+                color: rgba(250, 250, 250, 0.9);
+                    display: inline-block;
+                    -webkit-animation: flip 8s cubic-bezier(0.0, 0.0, 0.58, 1.0) infinite;
+                    animation: flip 8s cubic-bezier(0.0, 0.0, 0.58, 1.0) infinite;
+            }
+            .slogan2{
+                color: rgba(250, 250, 250, 0.9); 
+                z-index: 1;
+            }
+            .social-btn-container {
+                text-align: center;
+                position: relative;
+                left: 50%;
+                transform: translate(-50%);
+                width: 100%;
+                
+                
+                
+               
+                .social-btn-box {
+                    
+                    display: inline-block;
+                    width: 50px;
+                    height: 50px;
+                    -webkit-transform: rotate(45deg);
+                    -moz-transform: rotate(45deg);
+                    -ms-transform: rotate(45deg);
+                    -o-transform: rotate(45deg);
+                    transform: rotate(45deg);
+                    border: 1px solid #fff;
+                    -webkit-border-radius: 5px;
+                    -moz-border-radius: 5px;
+                    -ms-border-radius: 5px;
+                    -o-border-radius: 5px;
+                    border-radius: 5px;
+                    margin: 10px;
+                    position: relative;
+                    overflow: hidden;
+                    &:hover
+                    {
+                        border: hidden;
+                    }
+                     a {
+                            color: #fff;
+                            font-size: 20px;
+                            line-height: 70px;
+                            display: inline-block;
+                            width: 67px;
+                            height: 67px;
+                            position: absolute;
+                            top: -10px;
+                            left: -10px;
+                            -webkit-transform: rotate(-45deg);
+                            -moz-transform: rotate(-45deg);
+                            -ms-transform: rotate(-45deg);
+                            -o-transform: rotate(-45deg);
+                            transform: rotate(-45deg);
+                        }
+                    
+                        .google-plus-btn
+                        {
+                            &:hover{
+                                color: #fff;
+                                background: #db514f;
+                                
+                                
+                            }
+                            
+                        }
+                        .facebook-btn
+                        {
+                            &:hover{
+                                background: #3B5998;
+                                color: #fff;
+                                
+                            }
+                            
+                        }
+                        .twitter-btn
+                        {
+                            &:hover{
+                                background: #55ACEE;
+                                color: #fff;
+                                
+                                
+                            }
+                            
+                        }
+                        .linkedin-btn
+                        {
+                            &:hover{
+                                background: #0077b5;
+                                color: #fff;
+                                
+                                
+                            }
+                            
+                        }
+                        .youtube-btn
+                        {
+                            &:hover{
+                                background: #cc181e;
+                                color: #fff;
+                                
+                                
+                            }
+                            
+                        }
+    
+                    
+                    }
+                    .fixbottarro {
+                        // z-index: 6;
+                        height: 150px;
+                        width: 100%;
+                        position: absolute;
+                        bottom: 0px;
+                        left: 50%;
+                        -webkit-transform: translateX(-50%);
+                        -moz-transform: translateX(-50%);
+                        -ms-transform: translateX(-50%);
+                        -o-transform: translateX(-50%);
+                        transform: translateX(-50%);
+                        }
+                        
+                }
+        }
+
+}
+.projects {
+    margin-top: 12%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  
+    .perProject {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 30px;
+        border-radius: 15px;
+        background-color: #fff;
+        margin-left: 30px;
+        margin-right: 30px;
+        width: 350px;
+        box-sizing: border-box;
+        box-shadow: 10px 10px 10px #f1767610;
+        transition: all .3s;
+        position: relative;
+        overflow: hidden;
+        height: 220px;
+        margin-bottom: 50px;
+        border: 1px solid rgb(78, 175, 180);
+        }
+        .text {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            padding: 10px;
+            background-image: -webkit-linear-gradient(45deg,#888888 0,#888888 100%);
+            color: #fff;
+            box-sizing: border-box;
+            font-size: 14px;
+            opacity: .8;
+            }
+    }
+  
+
+
+
+    .paginationStyling{
+        direction: var(--direction);
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    @media (max-width: 480px){
+    
+        em {
+            font-size: 36px !important;
+            
+        }
+        .animeWork{
+            font-size: 36px !important;
+
+        }
+        #title-1{
+            margin-top: 20% !important;
+
+        }
+
+    
+   
+
+}
+

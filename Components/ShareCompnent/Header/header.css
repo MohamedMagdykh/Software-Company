@@ -1,0 +1,121 @@
+:root {
+  --direction: ltr;
+}
+
+.navbar {
+  direction: var(--direction);
+}
+
+.navbar-default.scrolled {
+  background: #4eafb4;
+}
+
+.navbar-toggler, .translate {
+  -webkit-filter: drop-shadow(2px 4px 6px white);
+          filter: drop-shadow(2px 4px 6px white);
+}
+
+.navbar-toggler:hover, .translate:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.navbar-toggler:focus, .translate:focus {
+  border: 0px;
+  outline: 0px;
+}
+
+.titleNav {
+  -webkit-filter: drop-shadow(2px 4px 6px white);
+          filter: drop-shadow(2px 4px 6px white);
+  font-style: italic;
+  color: #e4dfdffa;
+  font-family: initial;
+  font-weight: 400;
+  letter-spacing: 5px;
+}
+
+.titleNav:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.titleNav span {
+  font-weight: 600;
+  color: white;
+}
+
+.overlay {
+  z-index: 1031;
+  height: 100%;
+  width: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #4eafb4;
+  background-color: rgba(78, 175, 180, 0.8);
+  overflow-x: hidden;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  font-size: 60px;
+  left: 20%;
+  text-decoration: none;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 28px;
+  color: #fff;
+  display: block;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  letter-spacing: 2px;
+  -webkit-filter: drop-shadow(2px 4px 6px white);
+          filter: drop-shadow(2px 4px 6px white);
+}
+
+.overlay a:hover {
+  color: #5d5e5f;
+  -webkit-filter: drop-shadow(2px 4px 6px #5d5e5f);
+          filter: drop-shadow(2px 4px 6px #5d5e5f);
+}
+
+.overlay #hide-nav {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.overlay #hide-nav a:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 75px;
+  right: 5px;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  -webkit-box-shadow: 2px 2px 3px #999;
+          box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+}
+
+.float .my-float {
+  margin-top: 16px;
+}
+/*# sourceMappingURL=header.css.map */

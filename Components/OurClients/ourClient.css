@@ -1,0 +1,224 @@
+:root {
+  --direction: ltr;
+  --display:block;
+  --textaligen:left;
+  --padingright:30px;
+}
+
+.why-choose-us {
+  padding-top: 10% !important;
+  padding: 45px 0;
+  background-color: #4eafb4;
+  background-size: cover;
+}
+
+.why-choose-us .whyChoose {
+  font-size: 2.3rem;
+}
+
+.why-choose-us .section-img {
+  width: 400px;
+  height: 269px;
+}
+
+.why-choose-us h1 {
+  text-align: var(--textaligen) !important;
+}
+
+.why-choose-us p {
+  text-align: var(--textaligen) !important;
+}
+
+.s2 {
+  background-image: url("../../img/clients.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  padding: 100px 200px;
+  position: relative;
+  min-height: 400px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  overflow: hidden;
+  padding-bottom: 200px;
+  z-index: 1;
+}
+
+.s2 .cover {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(144, 255, 246, 0.8);
+}
+
+.s2 .partOne {
+  position: relative;
+  z-index: 20;
+}
+
+.s2 .partOne em {
+  color: white;
+  font-family: gothic;
+  font-size: 100px;
+  letter-spacing: 5px;
+  display: block;
+  font-style: normal;
+  padding-top: 15px;
+  text-shadow: 0.07em 0.07em 0 rgba(0, 0, 0, 0.2);
+  -webkit-perspective: 1000;
+  perspective: 1000;
+}
+
+.s2 .partTwo {
+  position: relative;
+  z-index: 2;
+  width: 80%;
+  margin-top: 50px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.s2 .partTwo .owl-nav {
+  display: none;
+}
+
+.s2 .partTwo .perVote {
+  background-color: #fffFFF70;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: 200px;
+  background-color: #ffffff;
+  border-radius: 22px;
+  padding: 10px;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 3px 6px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 3px 6px 0 rgba(0, 0, 0, 0.19);
+  margin: 10px;
+}
+
+.s2 .partTwo .perVote .info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.s2 .partTwo .perVote .info .imgcon img {
+  width: 100%;
+  border-radius: 5%;
+  margin-right: 20px;
+}
+
+.s2 .partTwo .perVote .info .namecon .name {
+  color: #00000080;
+  font-size: 17px;
+}
+
+.s2 .partTwo .perVote .info .namecon .role {
+  color: #00000050;
+  font-size: 12px;
+}
+
+.s2 .partTwo .perVote .text {
+  color: #00000090;
+  font-size: 15px;
+  margin-top: 10px;
+  min-height: 100px;
+}
+
+.s2 .partTwo .perVote .stars {
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.s2 .partTwo .perVote .stars .perStar {
+  color: white;
+  margin-left: 5px;
+}
+
+.s6::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: -webkit-linear-gradient(120deg, white 0, #4eafb4 100%);
+  opacity: .9;
+  z-index: 1;
+}
+
+@media (max-width: 600px) {
+  .why-choose-us {
+    padding-top: 28% !important;
+  }
+  .why-choose-us .section-img {
+    width: 315px;
+    height: 212px;
+  }
+  .w-75 {
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .why-choose-us .section-img {
+    width: 315px;
+    height: 212px;
+  }
+  .w-75 {
+    width: 100% !important;
+  }
+  .s2 {
+    padding: 20px 10px;
+  }
+  .s2 .partOne h2 {
+    font-size: 25px;
+  }
+  .s2 .partTwo {
+    width: 95%;
+  }
+}
+
+@media (max-width: 799px) and (min-width: 250px) {
+  .s2 {
+    padding: 20px 10px;
+  }
+  .s2 .partOne h2 {
+    font-size: 25px;
+  }
+  .s2 .partTwo {
+    width: 60%;
+  }
+}
+/*# sourceMappingURL=ourClient.css.map */
