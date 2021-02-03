@@ -80,7 +80,7 @@ function myTimer(){
  
 
  })
- if(i>10)
+ if(i>3)
  {
    clearInterval(myVar);
  }
