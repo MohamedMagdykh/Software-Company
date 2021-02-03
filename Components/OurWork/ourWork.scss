@@ -1,15 +1,10 @@
 
 
- :root{
-    
-    --direction: ltr;
-    --textaligen:left;
-    
-  }  
 .s1{
     .hero {
         position: relative;
         overflow: scroll;
+        
         height: 225vh;
         display: flex;
         flex-direction: column;
@@ -247,10 +242,8 @@
 
 
     .paginationStyling{
-        direction: var(--direction);
         display: flex;
         justify-content: center;
-        
     }
 
     @media (max-width: 480px){
