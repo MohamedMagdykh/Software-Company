@@ -177,10 +177,12 @@ function closeNav()
             }
                 
         }, 100);
-        setTimeout(() => {
-      
-
-       
+        var i = 1
+        var myVar = setInterval(myTimer, 100);
+        function myTimer(){
+           //console.log("1")
+           i++
+           console.log(i)
           if (localStorage.getItem("lang") == null) 
           {
               $("#ar").show()
@@ -191,7 +193,7 @@ function closeNav()
               $(".s5li").removeClass("ArliS5");
               localStorage.setItem("lang", "en");
               $("[data-localize]").localize("Components/mylanguage",{language:localStorage.getItem("lang")})
-            //   console.log("1")
+            //console.log("1")
   
            }
            if(localStorage.getItem("lang") != null){
@@ -226,9 +228,6 @@ function closeNav()
   
            }
          
-          
-        
-        
          $(".translate").on("click",function(){
              if($(this).attr("id")=="ar"){
               $("#en").show()
@@ -257,8 +256,13 @@ function closeNav()
           $("[data-localize]").localize("Components/mylanguage",{language:localStorage.getItem("lang")})
          
   
-      })
-      }, 100);
+         })
+         if(i>10)
+         {
+           clearInterval(myVar);
+         }
+        
+      }
      
         var owl = $('.owl-carousel');
         owl.owlCarousel({
