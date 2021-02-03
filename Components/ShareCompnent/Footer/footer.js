@@ -13,8 +13,10 @@ $(document).ready(function(){
       
         
     }, 1000);
-    setTimeout(() => {
-      
+    
+    var myVar = setInterval(myTimer, 100);
+    var i = 1
+    function myTimer(){
 
        
         if (localStorage.getItem("lang") == null) 
@@ -94,6 +96,11 @@ $(document).ready(function(){
        
 
     })
-    }, 100);
+    if(i>10)
+    {
+      clearInterval(myVar);
+    }
+}
+ 
   });
  

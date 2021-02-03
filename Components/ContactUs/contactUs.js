@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    console.log("1")
+    // console.log("1")
 var i = 1
 var myVar = setInterval(myTimer, 100);
 function myTimer(){

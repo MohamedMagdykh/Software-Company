@@ -19,13 +19,13 @@ function closeNav()
 
 }
 $(function(){
-
-    setTimeout(() => {
-      
-       
+    var myVar = setInterval(myTimer, 100);
+    var i =1
+    function myTimer(){
        
         if (localStorage.getItem("lang") == null) 
         {
+            console("ee")
             $(".ar").show()
             $(".en").hide()
             document.documentElement.style.setProperty("--direction", "ltr")
@@ -116,7 +116,11 @@ $(function(){
        
 
     })
-    }, 10);
+    if(i>10)
+    {
+      clearInterval(myVar);
+    }
+ }
    
         
                   

@@ -182,7 +182,7 @@ function closeNav()
         function myTimer(){
            //console.log("1")
            i++
-           console.log(i)
+          //  console.log(i)
           if (localStorage.getItem("lang") == null) 
           {
               $("#ar").show()
