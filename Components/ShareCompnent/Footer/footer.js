@@ -27,12 +27,12 @@ $(document).ready(function(){
             $(".s5li").removeClass("ArliS5");
             localStorage.setItem("lang", "en");
             $("[data-localize]").localize("../mylanguage",{language:localStorage.getItem("lang")})
-            console.log("1")
+            // console.log("1")
 
          }
          if(localStorage.getItem("lang") != null){
              if(localStorage.getItem("lang")=="en"){
-                 console.log("2")
+                //  console.log("2")
                 $("#ar").show()
                 $("#en").hide()
                 document.documentElement.style.setProperty("--direction", "ltr")
@@ -47,7 +47,7 @@ $(document).ready(function(){
 
              }
              if(localStorage.getItem("lang")=="ar"){
-                console.log("3")
+                // console.log("3")
                 $("#ar").hide()
                 $("#en").show()
                 document.documentElement.style.setProperty("--direction", "rtl")

@@ -105,6 +105,26 @@
         },
         "retina_detect": true
       });
+      function openNav()
+{
+    $("#myNav").css({
+        "width":"100%"
+    })
+    $("#hide-nav").css({
+        "display":"block"
+    })
+
+}
+function closeNav()
+{
+    $("#myNav").css({
+        "width":"0%"
+    })
+    $("#hide-nav").css({
+        "display":"none"
+    })
+
+}
       $(document).scroll(function(){
          
      
@@ -127,6 +147,19 @@
 
       })
       $(document).ready(function(){
+        setTimeout(() => {
+
+            $(".servicesBtn").click(function() {
+                document.querySelector('.servicesBtn').scrollIntoView({ 
+                    behavior: 'smooth' 
+                  });
+            
+            });
+    
+      
+          
+            
+        }, 1000);
         setTimeout(() => {
             if(window.pageYOffset>= 57 ){
            
@@ -157,13 +190,13 @@
               $("#s5Text").removeClass("ArTextS5");
               $(".s5li").removeClass("ArliS5");
               localStorage.setItem("lang", "en");
-              $("[data-localize]").localize("../mylanguage",{language:localStorage.getItem("lang")})
-              // console.log("1")
+              $("[data-localize]").localize("Components/mylanguage",{language:localStorage.getItem("lang")})
+            //   console.log("1")
   
            }
            if(localStorage.getItem("lang") != null){
                if(localStorage.getItem("lang")=="en"){
-                  //  console.log("2")
+                //    console.log("2")
                   $("#ar").show()
                   $("#en").hide()
                   document.documentElement.style.setProperty("--direction", "ltr")
@@ -178,7 +211,7 @@
   
                }
                if(localStorage.getItem("lang")=="ar"){
-                  // console.log("3")
+                //   console.log("3")
                   $("#ar").hide()
                   $("#en").show()
                   document.documentElement.style.setProperty("--direction", "rtl")
@@ -189,7 +222,7 @@
                  
                    
               }
-              $("[data-localize]").localize("../mylanguage",{language:localStorage.getItem("lang")})
+              $("[data-localize]").localize("Components/mylanguage",{language:localStorage.getItem("lang")})
   
            }
          
@@ -221,7 +254,7 @@
              }
              lang = $(this).attr("id")
              localStorage.setItem("lang", lang);
-          $("[data-localize]").localize("../mylanguage",{language:localStorage.getItem("lang")})
+          $("[data-localize]").localize("Components/mylanguage",{language:localStorage.getItem("lang")})
          
   
       })
