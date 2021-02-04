@@ -19,9 +19,10 @@ function closeNav()
 
 }
 $(function(){
-    var myVar = setInterval(myTimer, 100);
+    var myVar = setInterval(myTimer, 10);
     var i =1
     function myTimer(){
+        i++
        
         if (localStorage.getItem("lang") == null) 
         {
@@ -116,7 +117,7 @@ $(function(){
        
 
     })
-    if(i>2)
+    if(i>5)
     {
       clearInterval(myVar);
     }

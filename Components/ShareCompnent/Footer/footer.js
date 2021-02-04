@@ -17,6 +17,7 @@ $(document).ready(function(){
     var myVar = setInterval(myTimer, 100);
     var i = 1
     function myTimer(){
+        i++
 
        
         if (localStorage.getItem("lang") == null) 
@@ -96,7 +97,7 @@ $(document).ready(function(){
        
 
     })
-    if(i>1)
+    if(i>5)
     {
       clearInterval(myVar);
     }
