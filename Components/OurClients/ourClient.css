@@ -63,7 +63,7 @@
   right: 0;
   top: 0;
   bottom: 0;
-  background: rgba(144, 255, 246, 0.8);
+  background: rgba(78, 175, 180, 0.9);
 }
 
 .s2 .partOne {
@@ -73,8 +73,8 @@
 
 .s2 .partOne em {
   color: white;
-  font-family: gothic;
-  font-size: 100px;
+  font-family: bold;
+  font-size: 50px;
   letter-spacing: 5px;
   display: block;
   font-style: normal;

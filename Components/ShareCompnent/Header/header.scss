@@ -12,7 +12,7 @@
 }
 
 .navbar-toggler,.translate{
-    filter: drop-shadow(2px 4px 6px white);
+    // filter: drop-shadow(2px 4px 6px white);
     &:hover{
         transform: scale(1.1);
         }
@@ -22,7 +22,7 @@
         }
 }
 .titleNav{
-    filter: drop-shadow(2px 4px 6px white);
+    // filter: drop-shadow(2px 4px 6px white);
     font-style: italic;
     color: #e4dfdffa;
     font-family: initial;
@@ -52,7 +52,6 @@
     top: 0;
     left: 0;
     background-color: rgb(78, 175, 180);
-    background-color: rgba(78, 175, 180, 0.8);
     overflow-x: hidden;
     transition: 0.5s;
     .closebtn {

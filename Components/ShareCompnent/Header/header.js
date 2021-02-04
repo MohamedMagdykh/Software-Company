@@ -26,7 +26,7 @@ $(function(){
        
         if (localStorage.getItem("lang") == null) 
         {
-            console("ee")
+            // console("ee")
             $(".ar").show()
             $(".en").hide()
             document.documentElement.style.setProperty("--direction", "ltr")

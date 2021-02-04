@@ -19,7 +19,7 @@
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(37, 37, 37, 0.5);
+  background: #5d5e5f;
 }
 
 .subscribe-section form {
@@ -32,46 +32,55 @@
 }
 
 .subscribe-section .input-group-append button {
-  background-color: #79eaf0 !important;
+  background-color: #4eafb4 !important;
 }
 
 .subscribe-section .AtheerFooter {
-  color: #79eaf0;
-  -webkit-filter: drop-shadow(2px 4px 6px #79eaf0);
-          filter: drop-shadow(2px 4px 6px #79eaf0);
+  color: #4eafb4;
   letter-spacing: 10px;
   font-family: cursive;
 }
 
-.footer-main {
+.alAtheer-footer .footer-main {
+  position: relative;
   direction: var(--direction);
   background-image: url(../../../img/footer4.png);
   background-size: cover;
   background-color: #041C34;
 }
 
-.footer-main .contact-info li {
+.alAtheer-footer .footer-main .cover {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(93, 94, 95, 0.7);
+}
+
+.alAtheer-footer .footer-main .contact-info li {
   color: #F5F6F4 !important;
   padding: .3rem 0rem;
 }
 
-.footer-main .contact-info .social-icons i {
+.alAtheer-footer .footer-main .contact-info .social-icons i {
   font-size: 30px;
   margin-right: 10px;
   color: #F5F6F4;
 }
 
-.footer-main .nav-item {
+.alAtheer-footer .footer-main .nav-item {
   font-size: 1rem;
 }
 
-.footer-main .nav-link {
+.alAtheer-footer .footer-main .nav-link {
   display: block;
   padding: .1rem 0rem;
   color: #F5F6F4;
 }
 
-.footer-main .AtheerFooter2 {
+.alAtheer-footer .footer-main .AtheerFooter2 {
   -webkit-filter: drop-shadow(2px 4px 6px #F5F6F4);
           filter: drop-shadow(2px 4px 6px #F5F6F4);
   letter-spacing: 10px;

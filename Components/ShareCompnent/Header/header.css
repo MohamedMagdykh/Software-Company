@@ -10,11 +10,6 @@
   background: #4eafb4;
 }
 
-.navbar-toggler, .translate {
-  -webkit-filter: drop-shadow(2px 4px 6px white);
-          filter: drop-shadow(2px 4px 6px white);
-}
-
 .navbar-toggler:hover, .translate:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
@@ -26,8 +21,6 @@
 }
 
 .titleNav {
-  -webkit-filter: drop-shadow(2px 4px 6px white);
-          filter: drop-shadow(2px 4px 6px white);
   font-style: italic;
   color: #e4dfdffa;
   font-family: initial;
@@ -53,7 +46,6 @@
   top: 0;
   left: 0;
   background-color: #4eafb4;
-  background-color: rgba(78, 175, 180, 0.8);
   overflow-x: hidden;
   -webkit-transition: 0.5s;
   transition: 0.5s;

@@ -29,8 +29,9 @@ div{
       
         }
         .SectionName {
-            color: #a4ecd5;
+            color: rgb(78, 175, 180);
             font-size: 20px;
+            font-family: bold;
             
             }
           
@@ -117,7 +118,7 @@ div{
                         line-height: 40px;
                         height: 40px;
                         font-size: 14px;
-                        color: #242422;
+                        color: white;
                         padding-right: 20px;
                         padding-left: 20px;
                         padding-top: 0;
@@ -127,7 +128,7 @@ div{
                         -ms-transition: all 0.2s ease 0s;
                         -o-transition: all 0.2s ease 0s;
                         font-weight: bold;
-                        background-color: #a4ecd5;
+                        background-color: rgb(78, 175, 180);
                         text-decoration: none;
                         &:hover{
                             color: white;
