@@ -116,7 +116,7 @@ $(function(){
        
 
     })
-    if(i>3)
+    if(i>2)
     {
       clearInterval(myVar);
     }
